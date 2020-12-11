@@ -23,17 +23,16 @@ https://www.youtube.com/watch?v=ru0xJEwz4Uc&t=3s
 - https://urbansounddataset.weebly.com/
 - https://urbansounddataset.weebly.com/urbansound8k.html
 
-#### 참조 프로젝트/자료
+#### 참조 프로젝트
 - 소리 특징 추출과 분류
 https://github.com/mikesmales/Udacity-ML-Capstone
 - customized yolo weights 얻기
 https://www.youtube.com/watch?v=10joRJt39Ns&t=1224s
+
 https://www.youtube.com/watch?v=EGQyDla8JNU
-- streaming to web using flask
+- 라즈베리파이 카메라 캡처
 https://github.com/miguelgrinberg/flask-video-streaming
-https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1
-https://blog.miguelgrinberg.com/post/video-streaming-with-flask
-https://ko.javascript.info/fetch
+
 
 ## 4) 기술 블로그
 
