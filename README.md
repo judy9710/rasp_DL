@@ -34,7 +34,7 @@ https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introducti
 https://blog.miguelgrinberg.com/post/video-streaming-with-flask
 https://ko.javascript.info/fetch
 
-## 4) 각 기술에 대한 팀원들의 기술 블로그 내용
+## 4) 기술 블로그
 
 - https://m.blog.naver.com/jiao0126/222146583690 : 데이터 수집에 관한 내용
 - https://hyoyoung9710.tistory.com/31 : 기침 소리 인식과 마스크 착용/미착용 인식 관한 딥러닝 모델, 라즈베리파이에 관한 내용
@@ -42,6 +42,6 @@ https://ko.javascript.info/fetch
 
 
 
-## 5) License 표시 (GPL/MIT 등)
+## 5) License
 
 MIT License
