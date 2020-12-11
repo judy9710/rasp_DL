@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>COVID-19 Monitoring System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script>
+    </script>
+
+
+ 
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>COVID-19 Monitoring System</h2>
+        </div>
+        <div class="main">
+            <div>
+                <button onclick="startOn()">Start Covid</button>
+            </div>
+            <div>
+                <button onclick="videoOn()">Video On</button>
+            </div>
+            <div>
+                <button onclick="videoOff()">Video Off</button>
+            </div>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+   <script>
+       function startOn(){
+            fetch("http://192.168.219.165:5000/video_cap")
+            .then(response=> { console.log(response); return response.text()})
+            .then(data=> {
+                console.log(data);
+                let result = document.querySelector("#result");
+                if(data=="1-ok"){
+                    result.innerHTML = "<h1>start</h1>";
+                }else{
+                    result.innerHTML = "<h1>error</h1>";
+                }
+            });
+        }
+
+
+        function videoOn(){
+            fetch("/")
+            .then(response=> response.text())
+            .then(data=> {
+                console.log(data);
+                let result = document.querySelector("#result");
+                if(data=="2-ok"){  
+                    result.innerHTML = "<h1>Video On !!!</h1>";
+                }else{
+                   result.innerHTML = data;
+                }
+            });
+        }
+
+        function videoOff){
+            fetch("/video/off")
+            .then(response=> response.text())
+            .then(data=> {
+                console.log(data);
+                let result = document.querySelector("#result");
+                if(data=="3-ok"){  
+                    result.innerHTML = "<h1>Video Off !!!</h1>";
+                }else{
+                   result.innerHTML = data;
+               }
+            });
+        }
+    </script>
+
+<h3>Video Play</h3>
+<p>
+
+<table>
+    <tbody>
+        <tr> 
+            <td><h3>Video Streaming</h3></td>
+	<td> <h3>Mask detect  </h3> </td>
+         </tr>
+        <tr> 
+	<td> <img src="{{url_for('video_feed')}}" width="400" height="300" ></img> </td>
+	<td> <img src="{{url_for('mask_detect')}}" width="400" height="300" ></img> </td>
+         </tr>
+    </tbody>
+</table>
+
+
+<h3>Cough audio Detect</h3>
+Cough  :
+
+<!--
+    <audio controls preload="none" style="width:480px;">
+	<source src="audio.m4a" type="audio/mp4" />
+-->
+    <audio controls preload="none" style="width:480px;">
+	<source src="{{url_for('download_file')}}" type="audio/wav" /> 
+
+    </audio>
+</body>
+</html>
