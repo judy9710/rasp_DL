@@ -14,26 +14,27 @@ https://www.youtube.com/watch?v=ru0xJEwz4Uc&t=3s
 
 ![2](https://user-images.githubusercontent.com/62248763/101849955-18af2300-3b9c-11eb-846b-7fcea3bc151f.JPG)
 
+##### windows server part / raspberry pi part
 
 1. pi/raspberry/file-server.py 를 실행시킬 때 포트를 지정하여 실행
 
-	라즈베리파이에 연결된 마이크 모듈에서 녹음한 음성부분을 socket 이용해서 전송하기 위한 코드
+라즈베리파이에 연결된 마이크 모듈에서 녹음한 음성부분을 socket 이용해서 전송하기 위한 코드
 
 2. server/file-client.py를 실행 (이때 포트번호 지정과 라즈베리파이의 IP 주소 포함되어야 함) 
 
-	음성을 받기 위한 코드
+음성을 받기 위한 코드
 
 3.	server/ftp-windows.py 실행
 
-	영상을 받기 위한 코드 (ftplib)
+영상을 받기 위한 코드 (ftplib)
 
 4.	pi/raspberry/app-cap.py 실행
 
-	영상을 캡처 및 보내기, 음성 캡처
+영상을 캡처 및 보내기, 음성 캡처
 
 5.	server/covid19.py 실행
 
-	프로젝트의 주 웹서버 코드
+프로젝트의 주 웹서버 코드
 
 
 ## 3) Reference
