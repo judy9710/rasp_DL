@@ -30,6 +30,7 @@ https://github.com/mikesmales/Udacity-ML-Capstone
 https://www.youtube.com/watch?v=10joRJt39Ns&t=1224s
 https://www.youtube.com/watch?v=EGQyDla8JNU
 - streaming to web using flask
+https://github.com/miguelgrinberg/flask-video-streaming
 https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1
 https://blog.miguelgrinberg.com/post/video-streaming-with-flask
 https://ko.javascript.info/fetch
