@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=ru0xJEwz4Uc&t=3s
 
 ![1](https://user-images.githubusercontent.com/62248763/101849804-cbcb4c80-3b9b-11eb-9801-a142068b3267.JPG)
 
+##### 프로그램 흐름도
+
 ![2](https://user-images.githubusercontent.com/62248763/101849955-18af2300-3b9c-11eb-846b-7fcea3bc151f.JPG)
 
 ## 3) Reference
