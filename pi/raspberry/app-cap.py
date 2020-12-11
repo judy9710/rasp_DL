@@ -124,6 +124,7 @@ def audio_cap():
 #        time.sleep(5)
 
 #ftp.close()
+#
 
 
 if __name__ == '__main__':
