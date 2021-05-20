@@ -2,7 +2,7 @@
 
 ## 1) 시연 영상 유튜브 주소
 
-https://www.youtube.com/watch?v=ru0xJEwz4Uc&t=3s
+
 
 ## 2) 프로젝트에 대한 소개
 
