@@ -58,6 +58,6 @@ https://www.youtube.com/watch?v=EGQyDla8JNU
 https://github.com/miguelgrinberg/flask-video-streaming
 
 
-## 4) License
+## 3) License
 
 MIT License
